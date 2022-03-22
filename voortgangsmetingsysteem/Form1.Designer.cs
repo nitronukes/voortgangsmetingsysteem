@@ -64,7 +64,7 @@ namespace voortgangsmetingsysteem
             this.jjj.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.jjj.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.jjj.ForeColor = System.Drawing.Color.White;
-            this.jjj.Location = new System.Drawing.Point(72, 62);
+            this.jjj.Location = new System.Drawing.Point(38, 30);
             this.jjj.Name = "jjj";
             this.jjj.RowCount = 4;
             this.jjj.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
