@@ -71,7 +71,7 @@ namespace voortgangsmetingsysteem
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(197, 92);
+            this.button2.Location = new System.Drawing.Point(0, 0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
@@ -244,7 +244,6 @@ namespace voortgangsmetingsysteem
             this.ResumeLayout(false);
 
         }
-
         #endregion
 
         private System.Windows.Forms.Label brs;
