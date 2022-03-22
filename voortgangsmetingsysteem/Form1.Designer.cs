@@ -86,7 +86,7 @@ namespace voortgangsmetingsysteem
             this.walrus.Size = new System.Drawing.Size(48, 17);
             this.walrus.TabIndex = 3;
             this.walrus.Text = "walrus";
-            this.walrus.Click += new System.EventHandler(this.label2_Click);
+            //this.walrus.Click += new System.EventHandler(this.label2_Click);
             // 
             // tableLayoutPanel1
             // 
