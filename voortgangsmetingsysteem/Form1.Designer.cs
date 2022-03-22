@@ -225,22 +225,6 @@ namespace voortgangsmetingsysteem
             this.percentage4.Size = new System.Drawing.Size(44, 17);
             this.percentage4.TabIndex = 11;
             this.percentage4.Text = "100%";
-            this.jjj.ColumnCount = 4;
-            this.jjj.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.jjj.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.jjj.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.jjj.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.jjj.ForeColor = System.Drawing.Color.White;
-            this.jjj.Location = new System.Drawing.Point(38, 30);
-            this.jjj.Name = "jjj";
-            this.jjj.RowCount = 4;
-            this.jjj.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.jjj.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.jjj.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.jjj.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.jjj.Size = new System.Drawing.Size(543, 211);
-            this.jjj.TabIndex = 0;
-            this.jjj.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // Form1
             // 
