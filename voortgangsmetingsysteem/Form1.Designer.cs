@@ -31,21 +31,21 @@ namespace voortgangsmetingsysteem
         {
             this.brs = new System.Windows.Forms.Label();
             this.knop1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.walrus = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.voltooien = new System.Windows.Forms.Label();
+            this.projecten = new System.Windows.Forms.Label();
             this.urs = new System.Windows.Forms.Label();
             this.ccs = new System.Windows.Forms.Label();
-            this.projecten = new System.Windows.Forms.Label();
             this.datum = new System.Windows.Forms.Label();
-            this.voltooien = new System.Windows.Forms.Label();
-            this.knop2 = new System.Windows.Forms.Button();
-            this.knop3 = new System.Windows.Forms.Button();
-            this.knop4 = new System.Windows.Forms.Button();
             this.percentage1 = new System.Windows.Forms.Label();
             this.percentage2 = new System.Windows.Forms.Label();
             this.percentage3 = new System.Windows.Forms.Label();
             this.percentage4 = new System.Windows.Forms.Label();
+            this.knop2 = new System.Windows.Forms.Button();
+            this.knop3 = new System.Windows.Forms.Button();
+            this.knop4 = new System.Windows.Forms.Button();
+            this.Paginatitel = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,15 +69,6 @@ namespace voortgangsmetingsysteem
             this.knop1.UseVisualStyleBackColor = true;
             this.knop1.Click += new System.EventHandler(this.knop1_Click);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // walrus
             // 
             this.walrus.AutoSize = true;
@@ -86,7 +77,6 @@ namespace voortgangsmetingsysteem
             this.walrus.Size = new System.Drawing.Size(48, 17);
             this.walrus.TabIndex = 3;
             this.walrus.Text = "walrus";
-            //this.walrus.Click += new System.EventHandler(this.label2_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -117,6 +107,24 @@ namespace voortgangsmetingsysteem
             this.tableLayoutPanel1.TabIndex = 4;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
+            // voltooien
+            // 
+            this.voltooien.AutoSize = true;
+            this.voltooien.Location = new System.Drawing.Point(448, 0);
+            this.voltooien.Name = "voltooien";
+            this.voltooien.Size = new System.Drawing.Size(65, 17);
+            this.voltooien.TabIndex = 5;
+            this.voltooien.Text = "voltooien";
+            // 
+            // projecten
+            // 
+            this.projecten.AutoSize = true;
+            this.projecten.Location = new System.Drawing.Point(3, 0);
+            this.projecten.Name = "projecten";
+            this.projecten.Size = new System.Drawing.Size(67, 17);
+            this.projecten.TabIndex = 5;
+            this.projecten.Text = "projecten";
+            // 
             // urs
             // 
             this.urs.AutoSize = true;
@@ -135,15 +143,6 @@ namespace voortgangsmetingsysteem
             this.ccs.TabIndex = 6;
             this.ccs.Text = "ccs";
             // 
-            // projecten
-            // 
-            this.projecten.AutoSize = true;
-            this.projecten.Location = new System.Drawing.Point(3, 0);
-            this.projecten.Name = "projecten";
-            this.projecten.Size = new System.Drawing.Size(67, 17);
-            this.projecten.TabIndex = 5;
-            this.projecten.Text = "projecten";
-            // 
             // datum
             // 
             this.datum.AutoSize = true;
@@ -152,43 +151,6 @@ namespace voortgangsmetingsysteem
             this.datum.Size = new System.Drawing.Size(47, 17);
             this.datum.TabIndex = 5;
             this.datum.Text = "datum";
-            // 
-            // voltooien
-            // 
-            this.voltooien.AutoSize = true;
-            this.voltooien.Location = new System.Drawing.Point(448, 0);
-            this.voltooien.Name = "voltooien";
-            this.voltooien.Size = new System.Drawing.Size(65, 17);
-            this.voltooien.TabIndex = 5;
-            this.voltooien.Text = "voltooien";
-            // 
-            // knop2
-            // 
-            this.knop2.Location = new System.Drawing.Point(679, 273);
-            this.knop2.Name = "knop2";
-            this.knop2.Size = new System.Drawing.Size(95, 23);
-            this.knop2.TabIndex = 5;
-            this.knop2.Text = "voltooid✅";
-            this.knop2.UseVisualStyleBackColor = true;
-            this.knop2.Click += new System.EventHandler(this.knop2_Click);
-            // 
-            // knop3
-            // 
-            this.knop3.Location = new System.Drawing.Point(679, 320);
-            this.knop3.Name = "knop3";
-            this.knop3.Size = new System.Drawing.Size(95, 23);
-            this.knop3.TabIndex = 6;
-            this.knop3.Text = "voltooid✅";
-            this.knop3.UseVisualStyleBackColor = true;
-            // 
-            // knop4
-            // 
-            this.knop4.Location = new System.Drawing.Point(679, 368);
-            this.knop4.Name = "knop4";
-            this.knop4.Size = new System.Drawing.Size(95, 23);
-            this.knop4.TabIndex = 7;
-            this.knop4.Text = "voltooid✅";
-            this.knop4.UseVisualStyleBackColor = true;
             // 
             // percentage1
             // 
@@ -226,29 +188,67 @@ namespace voortgangsmetingsysteem
             this.percentage4.TabIndex = 11;
             this.percentage4.Text = "100%";
             // 
+            // knop2
+            // 
+            this.knop2.Location = new System.Drawing.Point(679, 273);
+            this.knop2.Name = "knop2";
+            this.knop2.Size = new System.Drawing.Size(95, 23);
+            this.knop2.TabIndex = 5;
+            this.knop2.Text = "voltooid✅";
+            this.knop2.UseVisualStyleBackColor = true;
+            this.knop2.Click += new System.EventHandler(this.knop2_Click);
+            // 
+            // knop3
+            // 
+            this.knop3.Location = new System.Drawing.Point(679, 320);
+            this.knop3.Name = "knop3";
+            this.knop3.Size = new System.Drawing.Size(95, 23);
+            this.knop3.TabIndex = 6;
+            this.knop3.Text = "voltooid✅";
+            this.knop3.UseVisualStyleBackColor = true;
+            // 
+            // knop4
+            // 
+            this.knop4.Location = new System.Drawing.Point(679, 368);
+            this.knop4.Name = "knop4";
+            this.knop4.Size = new System.Drawing.Size(95, 23);
+            this.knop4.TabIndex = 7;
+            this.knop4.Text = "voltooid✅";
+            this.knop4.UseVisualStyleBackColor = true;
+            // 
+            // Paginatitel
+            // 
+            this.Paginatitel.AutoSize = true;
+            this.Paginatitel.Location = new System.Drawing.Point(359, 9);
+            this.Paginatitel.Name = "Paginatitel";
+            this.Paginatitel.Size = new System.Drawing.Size(68, 17);
+            this.Paginatitel.TabIndex = 10;
+            this.Paginatitel.Text = "Projecten";
+            this.Paginatitel.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Paginatitel);
             this.Controls.Add(this.knop4);
             this.Controls.Add(this.knop3);
             this.Controls.Add(this.knop2);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.knop1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
         #endregion
 
         private System.Windows.Forms.Label brs;
         private System.Windows.Forms.Button knop1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label walrus;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label urs;
@@ -263,6 +263,7 @@ namespace voortgangsmetingsysteem
         private System.Windows.Forms.Label percentage2;
         private System.Windows.Forms.Label percentage3;
         private System.Windows.Forms.Label percentage4;
+        private System.Windows.Forms.Label Paginatitel;
     }
 }
 

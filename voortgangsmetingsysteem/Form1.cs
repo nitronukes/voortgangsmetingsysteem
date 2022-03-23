@@ -45,5 +45,10 @@ namespace voortgangsmetingsysteem
         {
             percentage1.Text = "0%";
         }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
