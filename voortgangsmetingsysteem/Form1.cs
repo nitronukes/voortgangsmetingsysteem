@@ -38,12 +38,35 @@ namespace voortgangsmetingsysteem
         }
         private void knop2_Click(object sender, EventArgs e)
         {
-
+            percentage2.Text = "100%";
+        }
+        private void knop3_Click(object sender, EventArgs e)
+        {
+            percentage3.Text = "100%";
+        }
+        private void knop4_Click(object sender, EventArgs e)
+        {
+            percentage4.Text = "100%";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             percentage1.Text = "0%";
+            percentage2.Text = "0%";
+            percentage3.Text = "0%";
+            percentage4.Text = "0%";
+
+        }
+
+        private void homepageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //overzicht.Redirect("WebForm1.aspx");
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            Form2 newForm = new Form2();
+            newForm.Show();
         }
     }
 }
