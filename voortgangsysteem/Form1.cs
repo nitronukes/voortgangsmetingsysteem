@@ -16,5 +16,10 @@ namespace voortgangsysteem
         {
             InitializeComponent();
         }
+
+        private void projectToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
