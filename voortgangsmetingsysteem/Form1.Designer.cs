@@ -31,7 +31,6 @@ namespace voortgangsmetingsysteem
         {
             this.brs = new System.Windows.Forms.Label();
             this.knop1 = new System.Windows.Forms.Button();
-            this.reset = new System.Windows.Forms.Button();
             this.walrus = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.voltooien = new System.Windows.Forms.Label();
@@ -46,10 +45,7 @@ namespace voortgangsmetingsysteem
             this.knop2 = new System.Windows.Forms.Button();
             this.knop3 = new System.Windows.Forms.Button();
             this.knop4 = new System.Windows.Forms.Button();
-            this.homepageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.p_toevoegen = new System.Windows.Forms.ToolStripMenuItem();
-            this.overzicht = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.Paginatitel = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -73,16 +69,6 @@ namespace voortgangsmetingsysteem
             this.knop1.Text = "voltooid✅";
             this.knop1.UseVisualStyleBackColor = true;
             this.knop1.Click += new System.EventHandler(this.knop1_Click);
-            // 
-            // reset
-            // 
-            this.reset.Location = new System.Drawing.Point(598, 142);
-            this.reset.Name = "reset";
-            this.reset.Size = new System.Drawing.Size(75, 23);
-            this.reset.TabIndex = 2;
-            this.reset.Text = "reset";
-            this.reset.UseVisualStyleBackColor = true;
-            this.reset.Click += new System.EventHandler(this.button2_Click);
             // 
             // walrus
             // 
@@ -169,71 +155,6 @@ namespace voortgangsmetingsysteem
             // 
             // percentage1
             // 
-            this.percentage1.AutoSize = true;
-            this.percentage1.Location = new System.Drawing.Point(448, 20);
-            this.percentage1.Name = "percentage1";
-            this.percentage1.Size = new System.Drawing.Size(36, 17);
-            this.percentage1.TabIndex = 8;
-            this.percentage1.Text = "20%";
-            // 
-            // percentage2
-            // 
-            this.percentage2.AutoSize = true;
-            this.percentage2.Location = new System.Drawing.Point(448, 69);
-            this.percentage2.Name = "percentage2";
-            this.percentage2.Size = new System.Drawing.Size(44, 17);
-            this.percentage2.TabIndex = 9;
-            this.percentage2.Text = "100%";
-            // 
-            // percentage3
-            // 
-            this.percentage3.AutoSize = true;
-            this.percentage3.Location = new System.Drawing.Point(448, 118);
-            this.percentage3.Name = "percentage3";
-            this.percentage3.Size = new System.Drawing.Size(44, 17);
-            this.percentage3.TabIndex = 10;
-            this.percentage3.Text = "100%";
-            // 
-            // percentage4
-            // 
-            this.percentage4.AutoSize = true;
-            this.percentage4.Location = new System.Drawing.Point(448, 167);
-            this.percentage4.Name = "percentage4";
-            this.percentage4.Size = new System.Drawing.Size(44, 17);
-            this.percentage4.TabIndex = 11;
-            this.percentage4.Text = "100%";
-            // 
-            // knop2
-            // 
-            this.knop2.Location = new System.Drawing.Point(679, 273);
-            this.knop2.Name = "knop2";
-            this.knop2.Size = new System.Drawing.Size(95, 23);
-            this.knop2.TabIndex = 5;
-            this.knop2.Text = "voltooid✅";
-            this.knop2.UseVisualStyleBackColor = true;
-            this.knop2.Click += new System.EventHandler(this.knop2_Click);
-            // 
-            // knop3
-            // 
-            this.knop3.Location = new System.Drawing.Point(679, 320);
-            this.knop3.Name = "knop3";
-            this.knop3.Size = new System.Drawing.Size(95, 23);
-            this.knop3.TabIndex = 6;
-            this.knop3.Text = "voltooid✅";
-            this.knop3.UseVisualStyleBackColor = true;
-            this.knop3.Click += new System.EventHandler(this.knop3_Click);
-            // 
-            // knop4
-            // 
-            this.knop4.Location = new System.Drawing.Point(679, 368);
-            this.knop4.Name = "knop4";
-            this.knop4.Size = new System.Drawing.Size(95, 23);
-            this.knop4.TabIndex = 7;
-            this.knop4.Text = "voltooid✅";
-            this.knop4.UseVisualStyleBackColor = true;
-            // 
-            // homepageToolStripMenuItem
-            // 
             this.homepageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.p_toevoegen,
             this.overzicht});
@@ -266,16 +187,54 @@ namespace voortgangsmetingsysteem
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
+            // knop2
+            // 
+            this.knop2.Location = new System.Drawing.Point(679, 273);
+            this.knop2.Name = "knop2";
+            this.knop2.Size = new System.Drawing.Size(95, 23);
+            this.knop2.TabIndex = 5;
+            this.knop2.Text = "voltooid✅";
+            this.knop2.UseVisualStyleBackColor = true;
+            this.knop2.Click += new System.EventHandler(this.knop2_Click);
+            // 
+            // knop3
+            // 
+            this.knop3.Location = new System.Drawing.Point(679, 320);
+            this.knop3.Name = "knop3";
+            this.knop3.Size = new System.Drawing.Size(95, 23);
+            this.knop3.TabIndex = 6;
+            this.knop3.Text = "voltooid✅";
+            this.knop3.UseVisualStyleBackColor = true;
+            // 
+            // knop4
+            // 
+            this.knop4.Location = new System.Drawing.Point(679, 368);
+            this.knop4.Name = "knop4";
+            this.knop4.Size = new System.Drawing.Size(95, 23);
+            this.knop4.TabIndex = 7;
+            this.knop4.Text = "voltooid✅";
+            this.knop4.UseVisualStyleBackColor = true;
+            // 
+            // Paginatitel
+            // 
+            this.Paginatitel.AutoSize = true;
+            this.Paginatitel.Location = new System.Drawing.Point(359, 9);
+            this.Paginatitel.Name = "Paginatitel";
+            this.Paginatitel.Size = new System.Drawing.Size(68, 17);
+            this.Paginatitel.TabIndex = 10;
+            this.Paginatitel.Text = "Projecten";
+            this.Paginatitel.Click += new System.EventHandler(this.label1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Paginatitel);
             this.Controls.Add(this.knop4);
             this.Controls.Add(this.knop3);
             this.Controls.Add(this.knop2);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.reset);
             this.Controls.Add(this.knop1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -293,7 +252,6 @@ namespace voortgangsmetingsysteem
 
         private System.Windows.Forms.Label brs;
         private System.Windows.Forms.Button knop1;
-        private System.Windows.Forms.Button reset;
         private System.Windows.Forms.Label walrus;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label urs;
@@ -308,10 +266,7 @@ namespace voortgangsmetingsysteem
         private System.Windows.Forms.Label percentage2;
         private System.Windows.Forms.Label percentage3;
         private System.Windows.Forms.Label percentage4;
-        private System.Windows.Forms.ToolStripMenuItem homepageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem p_toevoegen;
-        private System.Windows.Forms.ToolStripMenuItem overzicht;
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.Label Paginatitel;
     }
 }
 

@@ -68,5 +68,10 @@ namespace voortgangsmetingsysteem
             Form2 newForm = new Form2();
             newForm.Show();
         }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
