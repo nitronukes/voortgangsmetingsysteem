@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voortgangsysteem", "voortgangsysteem.csproj", "{6695ADE5-6DD3-44C3-B89B-32DFD0D8FEFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6695ADE5-6DD3-44C3-B89B-32DFD0D8FEFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6695ADE5-6DD3-44C3-B89B-32DFD0D8FEFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6695ADE5-6DD3-44C3-B89B-32DFD0D8FEFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6695ADE5-6DD3-44C3-B89B-32DFD0D8FEFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36693C85-CE8D-4D0B-A48B-A307CEC28825}
+	EndGlobalSection
+EndGlobal
