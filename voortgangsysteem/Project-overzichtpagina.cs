@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace voortgangsysteem
 {
-    public partial class Form1 : Form
+    public partial class Project_overzichtpagina : Form
     {
-        public Form1()
+        public Project_overzichtpagina()
         {
             InitializeComponent();
-        }
-
-        private void projectToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
