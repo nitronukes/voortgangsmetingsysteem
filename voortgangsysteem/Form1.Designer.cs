@@ -59,7 +59,7 @@ namespace voortgangsysteem
             this.homeToolStripMenuItem.AutoSize = false;
             this.homeToolStripMenuItem.Image = global::voortgangsysteem.Properties.Resources._2144;
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            this.homeToolStripMenuItem.Size = new System.Drawing.Size(195, 24);
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(195, 28);
             this.homeToolStripMenuItem.Text = "Home";
             // 
             // projectenoverzichtToolStripMenuItem
