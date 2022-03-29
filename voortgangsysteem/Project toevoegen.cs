@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace voortgangsysteem
 {
-    public partial class Project_toevoegen : Form
+    public partial class project_toevoegen : Form
     {
-        public Project_toevoegen()
+        public project_toevoegen()
         {
             InitializeComponent();
         }
