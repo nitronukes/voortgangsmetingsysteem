@@ -36,9 +36,9 @@ namespace voortgangsysteem
             this.projectenoverzichtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.projectToevoegenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.projectov = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.projectov = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,9 +53,9 @@ namespace voortgangsysteem
             this.homeToolStripMenuItem,
             this.projectenoverzichtToolStripMenuItem,
             this.projectToevoegenToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, -1);
+            this.menuStrip1.Location = new System.Drawing.Point(9, -1);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 40);
+            this.menuStrip1.Size = new System.Drawing.Size(764, 40);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -101,15 +101,14 @@ namespace voortgangsysteem
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
-            // projectov
+            // button2
             // 
-            this.projectov.Location = new System.Drawing.Point(58, 98);
-            this.projectov.Name = "projectov";
-            this.projectov.Size = new System.Drawing.Size(193, 24);
-            this.projectov.TabIndex = 4;
-            this.projectov.Text = "projecten overzicht";
-            this.projectov.UseVisualStyleBackColor = true;
-            this.projectov.Click += new System.EventHandler(this.projectov_Click);
+            this.button2.Location = new System.Drawing.Point(59, 203);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(191, 55);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "beoordelings pagina";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -121,14 +120,15 @@ namespace voortgangsysteem
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // projectov
             // 
-            this.button2.Location = new System.Drawing.Point(59, 203);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(191, 55);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "beoordelings pagina";
-            this.button2.UseVisualStyleBackColor = true;
+            this.projectov.Location = new System.Drawing.Point(58, 98);
+            this.projectov.Name = "projectov";
+            this.projectov.Size = new System.Drawing.Size(193, 24);
+            this.projectov.TabIndex = 4;
+            this.projectov.Text = "projecten overzicht";
+            this.projectov.UseVisualStyleBackColor = true;
+            this.projectov.Click += new System.EventHandler(this.projectov_Click);
             // 
             // menu
             // 
@@ -158,7 +158,9 @@ namespace voortgangsysteem
 
         private void projectenoverzichtToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            this.Hide();
+            Project_overzichtpagina po = new Project_overzichtpagina();
+            po.Show();
         }
 
         #endregion
@@ -168,9 +170,9 @@ namespace voortgangsysteem
         private System.Windows.Forms.ToolStripMenuItem projectenoverzichtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem projectToevoegenToolStripMenuItem;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Button projectov;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button projectov;
     }
 }
 
