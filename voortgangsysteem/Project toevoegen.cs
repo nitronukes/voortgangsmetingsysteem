@@ -16,5 +16,19 @@ namespace voortgangsysteem
         {
             InitializeComponent();
         }
+
+        private void projectenoverzichtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Project_overzichtpagina po = new Project_overzichtpagina();
+            po.Show();
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            menu Home = new menu();
+            Home.Show();
+        }
     }
 }
