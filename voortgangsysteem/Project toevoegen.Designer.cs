@@ -30,18 +30,26 @@ namespace voortgangsysteem
         private void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(325, 142);
+            this.textBox1.Location = new System.Drawing.Point(334, 142);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(134, 22);
+            this.textBox1.Size = new System.Drawing.Size(112, 22);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Project Naam";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(334, 186);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(112, 22);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "Datum";
             // 
             // button2
             // 
@@ -61,21 +69,14 @@ namespace voortgangsysteem
             this.label1.TabIndex = 4;
             this.label1.Text = "Project Toevoegen";
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(292, 187);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
-            this.dateTimePicker1.TabIndex = 5;
-            // 
             // project_toevoegen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "project_toevoegen";
             this.Text = "project_toevoegen";
@@ -87,8 +88,8 @@ namespace voortgangsysteem
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
