@@ -38,6 +38,7 @@ namespace voortgangsysteem
             this.listView1 = new System.Windows.Forms.ListView();
             this.projectov = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,11 +121,21 @@ namespace voortgangsysteem
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(59, 203);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(191, 55);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "beoordelings pagina";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.projectov);
             this.Controls.Add(this.listView1);
@@ -159,6 +170,7 @@ namespace voortgangsysteem
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.Button projectov;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
