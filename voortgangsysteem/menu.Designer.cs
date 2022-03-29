@@ -83,6 +83,7 @@ namespace voortgangsysteem
             this.projectToevoegenToolStripMenuItem.Name = "projectToevoegenToolStripMenuItem";
             this.projectToevoegenToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.projectToevoegenToolStripMenuItem.Text = "Project Toevoegen";
+            this.projectToevoegenToolStripMenuItem.Click += new System.EventHandler(this.projectToevoegenToolStripMenuItem_Click_1);
             // 
             // listView1
             // 
@@ -115,8 +116,9 @@ namespace voortgangsysteem
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(193, 32);
             this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
+            this.button1.Text = "project toevoegen";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // menu
             // 

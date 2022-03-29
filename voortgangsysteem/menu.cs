@@ -35,7 +35,19 @@ namespace voortgangsysteem
 
         private void projectov_Click(object sender, EventArgs e)
         {
-            menu newForm = new menu();
+            Project_overzichtpagina newForm = new Project_overzichtpagina();
+            newForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            project_toevoegen newForm = new project_toevoegen();
+            newForm.Show();
+        }
+
+        private void projectToevoegenToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
