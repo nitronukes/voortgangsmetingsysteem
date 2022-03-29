@@ -47,7 +47,9 @@ namespace voortgangsysteem
 
         private void projectToevoegenToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-
+            this.Hide();
+            project_toevoegen pt = new project_toevoegen();
+            pt.Show();
         }
     }
 }

@@ -86,6 +86,8 @@ namespace voortgangsysteem
             this.Controls.Add(this.textBox1);
             this.Name = "project_toevoegen";
             this.Text = "project_toevoegen";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
