@@ -1,7 +1,7 @@
 ﻿
 namespace voortgangsysteem
 {
-    partial class Project_overzichtpagina
+    partial class home
     {
         /// <summary>
         /// Required designer variable.
@@ -30,21 +30,21 @@ namespace voortgangsysteem
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.projectenListView = new System.Windows.Forms.ListView();
             this.Projectnaam = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Datum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -85,13 +85,89 @@ namespace voortgangsysteem
             this.tableLayoutPanel1.Size = new System.Drawing.Size(492, 235);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // textBox1
+            // textBox15
             // 
-            this.textBox1.Location = new System.Drawing.Point(3, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(71, 22);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "projecten";
+            this.textBox15.Location = new System.Drawing.Point(329, 191);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(37, 22);
+            this.textBox15.TabIndex = 14;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(166, 191);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(37, 22);
+            this.textBox14.TabIndex = 13;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(3, 191);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(37, 22);
+            this.textBox13.TabIndex = 12;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(329, 145);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(37, 22);
+            this.textBox12.TabIndex = 11;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(166, 145);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(37, 22);
+            this.textBox11.TabIndex = 10;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(3, 145);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(37, 22);
+            this.textBox10.TabIndex = 9;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(329, 99);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(37, 22);
+            this.textBox9.TabIndex = 8;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(166, 99);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(37, 22);
+            this.textBox8.TabIndex = 7;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(329, 53);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(37, 22);
+            this.textBox7.TabIndex = 6;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(166, 53);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(37, 22);
+            this.textBox6.TabIndex = 5;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(329, 3);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(37, 22);
+            this.textBox5.TabIndex = 4;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(166, 3);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(37, 22);
+            this.textBox4.TabIndex = 3;
             // 
             // textBox2
             // 
@@ -107,89 +183,13 @@ namespace voortgangsysteem
             this.textBox3.Size = new System.Drawing.Size(58, 22);
             this.textBox3.TabIndex = 2;
             // 
-            // textBox4
+            // textBox1
             // 
-            this.textBox4.Location = new System.Drawing.Point(166, 3);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(37, 22);
-            this.textBox4.TabIndex = 3;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(329, 3);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(37, 22);
-            this.textBox5.TabIndex = 4;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(166, 53);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(37, 22);
-            this.textBox6.TabIndex = 5;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(329, 53);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(37, 22);
-            this.textBox7.TabIndex = 6;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(166, 99);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(37, 22);
-            this.textBox8.TabIndex = 7;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(329, 99);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(37, 22);
-            this.textBox9.TabIndex = 8;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(3, 145);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(37, 22);
-            this.textBox10.TabIndex = 9;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(166, 145);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(37, 22);
-            this.textBox11.TabIndex = 10;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(329, 145);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(37, 22);
-            this.textBox12.TabIndex = 11;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(3, 191);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(37, 22);
-            this.textBox13.TabIndex = 12;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(166, 191);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(37, 22);
-            this.textBox14.TabIndex = 13;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(329, 191);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(37, 22);
-            this.textBox15.TabIndex = 14;
+            this.textBox1.Location = new System.Drawing.Point(3, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(71, 22);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "projecten";
             // 
             // projectenListView
             // 
@@ -229,7 +229,7 @@ namespace voortgangsysteem
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Project_overzichtpagina
+            // home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -237,8 +237,8 @@ namespace voortgangsysteem
             this.Controls.Add(this.button1);
             this.Controls.Add(this.projectenListView);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "Project_overzichtpagina";
-            this.Text = "Project_overzichtpagina";
+            this.Name = "home";
+            this.Text = "home";
             this.Load += new System.EventHandler(this.Project_overzichtpagina_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

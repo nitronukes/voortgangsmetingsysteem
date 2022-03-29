@@ -59,17 +59,23 @@
       <DependentUpon>menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="project overzicht.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="project overzicht.Designer.cs">
+      <DependentUpon>project overzicht.cs</DependentUpon>
+    </Compile>
     <Compile Include="Project toevoegen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Project toevoegen.Designer.cs">
       <DependentUpon>Project toevoegen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Project-overzichtpagina.cs">
+    <Compile Include="home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Project-overzichtpagina.Designer.cs">
-      <DependentUpon>Project-overzichtpagina.cs</DependentUpon>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="menu.resx">
@@ -78,8 +84,8 @@
     <EmbeddedResource Include="Project toevoegen.resx">
       <DependentUpon>Project toevoegen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Project-overzichtpagina.resx">
-      <DependentUpon>Project-overzichtpagina.cs</DependentUpon>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
