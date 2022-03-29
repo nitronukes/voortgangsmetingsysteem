@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,14 +19,17 @@ namespace voortgangsysteem
 
         private void projectToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
 
         }
 
-        private void projectenoverzichtToolStripMenuItem_Click(object sender, EventArgs e)
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Project_overzichtpagina overzichtpagina = new Project_overzichtpagina();
-            overzichtpagina.Show();
+         
         }
     }
 }
