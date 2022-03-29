@@ -22,5 +22,12 @@ namespace voortgangsysteem
         {
 
         }
+
+        private void projectenoverzichtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Project_overzichtpagina overzichtpagina = new Project_overzichtpagina();
+            overzichtpagina.Show();
+        }
     }
 }

@@ -33,7 +33,6 @@ namespace voortgangsysteem
             this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.projectenoverzichtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.projectToevoegenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listView1 = new System.Windows.Forms.ListView();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,7 +68,7 @@ namespace voortgangsysteem
             this.projectenoverzichtToolStripMenuItem.Name = "projectenoverzichtToolStripMenuItem";
             this.projectenoverzichtToolStripMenuItem.Size = new System.Drawing.Size(193, 24);
             this.projectenoverzichtToolStripMenuItem.Text = "Projectenoverzicht";
-            this.projectenoverzichtToolStripMenuItem.Click += new System.EventHandler(this.projectenoverzichtToolStripMenuItem_Click_1);
+            this.projectenoverzichtToolStripMenuItem.Click += new System.EventHandler(this.projectenoverzichtToolStripMenuItem_Click);
             // 
             // projectToevoegenToolStripMenuItem
             // 
@@ -79,34 +78,17 @@ namespace voortgangsysteem
             this.projectToevoegenToolStripMenuItem.Size = new System.Drawing.Size(193, 24);
             this.projectToevoegenToolStripMenuItem.Text = "Project Toevoegen";
             // 
-            // listView1
-            // 
-            this.listView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(0, 42);
-            this.listView1.MaximumSize = new System.Drawing.Size(1920, 1080);
-            this.listView1.MinimumSize = new System.Drawing.Size(783, 412);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(783, 412);
-            this.listView1.TabIndex = 3;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.menuStrip1);
             this.HelpButton = true;
             this.MaximumSize = new System.Drawing.Size(1920, 1080);
             this.MinimumSize = new System.Drawing.Size(800, 500);
             this.Name = "Form1";
             this.Text = "Home";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -119,7 +101,6 @@ namespace voortgangsysteem
         private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem projectenoverzichtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem projectToevoegenToolStripMenuItem;
-        private System.Windows.Forms.ListView listView1;
     }
 }
 
