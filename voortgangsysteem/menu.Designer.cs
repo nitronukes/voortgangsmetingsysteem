@@ -154,8 +154,8 @@ namespace voortgangsysteem
         private void projectenoverzichtToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            Project_overzichtpagina po = new Project_overzichtpagina();
-            po.Show();
+            //Project_overzichtpagina po = new Project_overzichtpagina();
+            //po.Show();
         }
 
         #endregion
@@ -168,7 +168,7 @@ namespace voortgangsysteem
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button projectov;
-        private System.Windows.Forms.Button button1;
+        //private System.Windows.Forms.Button button1;
     }
 }
 
