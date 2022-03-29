@@ -53,6 +53,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Project toevoegen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project toevoegen.Designer.cs">
+      <DependentUpon>Project toevoegen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Project-overzichtpagina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project toevoegen.resx">
+      <DependentUpon>Project toevoegen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Project-overzichtpagina.resx">
       <DependentUpon>Project-overzichtpagina.cs</DependentUpon>
