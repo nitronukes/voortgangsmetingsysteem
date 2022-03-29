@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="beoordelings_pagina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="beoordelings_pagina.Designer.cs">
+      <DependentUpon>beoordelings_pagina.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
