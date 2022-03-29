@@ -20,7 +20,7 @@ namespace voortgangsysteem
         private void homeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 Home = new Form1();
+            menu Home = new menu();
             Home.Show();
         }
 
