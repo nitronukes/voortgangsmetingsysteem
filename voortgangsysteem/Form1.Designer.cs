@@ -66,6 +66,7 @@ namespace voortgangsysteem
             this.projectenoverzichtToolStripMenuItem.Name = "projectenoverzichtToolStripMenuItem";
             this.projectenoverzichtToolStripMenuItem.Size = new System.Drawing.Size(193, 24);
             this.projectenoverzichtToolStripMenuItem.Text = "Projectenoverzicht";
+            this.projectenoverzichtToolStripMenuItem.Click += new System.EventHandler(this.projectenoverzichtToolStripMenuItem_Click);
             // 
             // projectToevoegenToolStripMenuItem
             // 

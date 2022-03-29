@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace voortgangsysteem
 {
-    public partial class Form1 : Form
+    public partial class Project_toevoeg_pagina : Form
     {
-        public Form1()
+        public Project_toevoeg_pagina()
         {
             InitializeComponent();
         }
 
-        private void projectToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+             
         }
 
-        private void projectenoverzichtToolStripMenuItem_Click(object sender, EventArgs e)
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
 
         }
