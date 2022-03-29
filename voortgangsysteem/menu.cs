@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace voortgangsysteem
 {
-    public partial class Form1 : Form
+    public partial class menu : Form
     {
-        public Form1()
+        public menu()
         {
             InitializeComponent();
         }
@@ -31,6 +31,11 @@ namespace voortgangsysteem
         private void homeToolStripMenuItem_Click(object sender, EventArgs e)
         {
          
+        }
+
+        private void projectov_Click(object sender, EventArgs e)
+        {
+            menu newForm = new menu();
         }
     }
 }

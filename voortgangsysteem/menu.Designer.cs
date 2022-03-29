@@ -1,7 +1,9 @@
 ﻿
+using System;
+
 namespace voortgangsysteem
 {
-    partial class Form1
+    partial class menu
     {
         /// <summary>
         /// Required designer variable.
@@ -34,6 +36,8 @@ namespace voortgangsysteem
             this.projectenoverzichtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.projectToevoegenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.projectov = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,7 +81,7 @@ namespace voortgangsysteem
             this.projectToevoegenToolStripMenuItem.AutoSize = false;
             this.projectToevoegenToolStripMenuItem.Image = global::voortgangsysteem.Properties.Resources._438a71db6962f35564e54b34835fd4cb;
             this.projectToevoegenToolStripMenuItem.Name = "projectToevoegenToolStripMenuItem";
-            this.projectToevoegenToolStripMenuItem.Size = new System.Drawing.Size(193, 24);
+            this.projectToevoegenToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.projectToevoegenToolStripMenuItem.Text = "Project Toevoegen";
             // 
             // listView1
@@ -95,23 +99,53 @@ namespace voortgangsysteem
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
-            // Form1
+            // projectov
+            // 
+            this.projectov.Location = new System.Drawing.Point(58, 98);
+            this.projectov.Name = "projectov";
+            this.projectov.Size = new System.Drawing.Size(193, 24);
+            this.projectov.TabIndex = 4;
+            this.projectov.Text = "projecten overzicht";
+            this.projectov.UseVisualStyleBackColor = true;
+            this.projectov.Click += new System.EventHandler(this.projectov_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(57, 155);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(193, 32);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.projectov);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.menuStrip1);
             this.HelpButton = true;
             this.MaximumSize = new System.Drawing.Size(1920, 1080);
             this.MinimumSize = new System.Drawing.Size(800, 500);
-            this.Name = "Form1";
+            this.Name = "menu";
             this.Text = "Home";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
 
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void projectenoverzichtToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
@@ -121,6 +155,8 @@ namespace voortgangsysteem
         private System.Windows.Forms.ToolStripMenuItem projectenoverzichtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem projectToevoegenToolStripMenuItem;
         private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.Button projectov;
+        private System.Windows.Forms.Button button1;
     }
 }
 

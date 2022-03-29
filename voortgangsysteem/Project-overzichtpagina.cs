@@ -49,7 +49,7 @@ namespace voortgangsysteem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 newForm = new Form1();
+            menu newForm = new menu();
             newForm.ShowDialog();
 
         }
