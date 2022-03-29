@@ -53,18 +53,15 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Project toevoeg pagina.cs">
+    <Compile Include="Project-overzichtpagina.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Project toevoeg pagina.Designer.cs">
-      <DependentUpon>Project toevoeg pagina.cs</DependentUpon>
+    <Compile Include="Project-overzichtpagina.Designer.cs">
+      <DependentUpon>Project-overzichtpagina.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Project toevoeg pagina.resx">
-      <DependentUpon>Project toevoeg pagina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -100,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\438a71db6962f35564e54b34835fd4cb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Projecten.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

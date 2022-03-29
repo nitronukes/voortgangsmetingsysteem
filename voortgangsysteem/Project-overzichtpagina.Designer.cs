@@ -1,7 +1,7 @@
 ﻿
 namespace voortgangsysteem
 {
-    partial class Form1
+    partial class Project_overzichtpagina
     {
         /// <summary>
         /// Required designer variable.
@@ -47,19 +47,21 @@ namespace voortgangsysteem
             this.homeToolStripMenuItem,
             this.projectenoverzichtToolStripMenuItem,
             this.projectToevoegenToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, -1);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 40);
-            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // homeToolStripMenuItem
             // 
             this.homeToolStripMenuItem.AutoSize = false;
+            this.homeToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.homeToolStripMenuItem.Image = global::voortgangsysteem.Properties.Resources._2144;
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
             this.homeToolStripMenuItem.Size = new System.Drawing.Size(195, 28);
             this.homeToolStripMenuItem.Text = "Home";
+            this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
             // 
             // projectenoverzichtToolStripMenuItem
             // 
@@ -68,7 +70,6 @@ namespace voortgangsysteem
             this.projectenoverzichtToolStripMenuItem.Name = "projectenoverzichtToolStripMenuItem";
             this.projectenoverzichtToolStripMenuItem.Size = new System.Drawing.Size(193, 24);
             this.projectenoverzichtToolStripMenuItem.Text = "Projectenoverzicht";
-            this.projectenoverzichtToolStripMenuItem.Click += new System.EventHandler(this.projectenoverzichtToolStripMenuItem_Click);
             // 
             // projectToevoegenToolStripMenuItem
             // 
@@ -78,17 +79,14 @@ namespace voortgangsysteem
             this.projectToevoegenToolStripMenuItem.Size = new System.Drawing.Size(193, 24);
             this.projectToevoegenToolStripMenuItem.Text = "Project Toevoegen";
             // 
-            // Form1
+            // Project_overzichtpagina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 453);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
-            this.HelpButton = true;
-            this.MaximumSize = new System.Drawing.Size(1920, 1080);
-            this.MinimumSize = new System.Drawing.Size(800, 500);
-            this.Name = "Form1";
-            this.Text = "Home";
+            this.Name = "Project_overzichtpagina";
+            this.Text = "Project_overzichtpagina";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -103,4 +101,3 @@ namespace voortgangsysteem
         private System.Windows.Forms.ToolStripMenuItem projectToevoegenToolStripMenuItem;
     }
 }
-
