@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="beoordelings_pagina.cs">
+    <Compile Include="beoordelingspagina.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="beoordelings_pagina.Designer.cs">
-      <DependentUpon>beoordelings_pagina.cs</DependentUpon>
+    <Compile Include="beoordelingspagina.Designer.cs">
+      <DependentUpon>beoordelingspagina.cs</DependentUpon>
     </Compile>
     <Compile Include="menu1.cs">
       <SubType>Form</SubType>
@@ -78,6 +78,9 @@
       <DependentUpon>Project_toevoegen.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="beoordelingspagina.resx">
+      <DependentUpon>beoordelingspagina.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menu1.resx">
       <DependentUpon>menu1.cs</DependentUpon>
     </EmbeddedResource>

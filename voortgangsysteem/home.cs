@@ -49,11 +49,16 @@ namespace voortgangsysteem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            menu1 newForm = new menu1();
-            newForm.ShowDialog();
+            //menu1 newForm = new menu1();
+            //newForm.ShowDialog();
+
+            Close();
 
         }
 
-   
+        private void projectenListView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

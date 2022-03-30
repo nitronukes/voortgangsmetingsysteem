@@ -32,7 +32,7 @@ namespace voortgangsysteem
             this.home = new System.Windows.Forms.Button();
             this.project_overzicht = new System.Windows.Forms.Button();
             this.project_toevoegen = new System.Windows.Forms.Button();
-            this.beoordelingspagina = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // home
@@ -65,22 +65,22 @@ namespace voortgangsysteem
             this.project_toevoegen.UseVisualStyleBackColor = true;
             this.project_toevoegen.Click += new System.EventHandler(this.project_toevoegen_Click);
             // 
-            // beoordelingspagina
+            // button1
             // 
-            this.beoordelingspagina.Location = new System.Drawing.Point(191, 365);
-            this.beoordelingspagina.Name = "beoordelingspagina";
-            this.beoordelingspagina.Size = new System.Drawing.Size(99, 43);
-            this.beoordelingspagina.TabIndex = 3;
-            this.beoordelingspagina.Text = "beoordelingspagina";
-            this.beoordelingspagina.UseVisualStyleBackColor = true;
-            this.beoordelingspagina.Click += new System.EventHandler(this.beoordelingspagina_Click);
+            this.button1.Location = new System.Drawing.Point(191, 343);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 47);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "beoordelingspagina";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // menu1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.beoordelingspagina);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.project_toevoegen);
             this.Controls.Add(this.project_overzicht);
             this.Controls.Add(this.home);
@@ -95,6 +95,6 @@ namespace voortgangsysteem
         private System.Windows.Forms.Button home;
         private System.Windows.Forms.Button project_overzicht;
         private System.Windows.Forms.Button project_toevoegen;
-        private System.Windows.Forms.Button beoordelingspagina;
+        private System.Windows.Forms.Button button1;
     }
 }

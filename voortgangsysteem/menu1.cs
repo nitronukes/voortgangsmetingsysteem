@@ -36,10 +36,11 @@ namespace voortgangsysteem
             newForm.Show();
         }
 
-        private void beoordelingspagina_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            beoordelings_pagina newForm = new beoordelings_pagina();
+            beoordelingspagina newForm = new beoordelingspagina();
             newForm.Show();
+
         }
     }
 }
