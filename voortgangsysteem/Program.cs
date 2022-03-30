@@ -17,7 +17,7 @@ namespace voortgangsysteem
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
-            Application.Run(new menu());
+            Application.Run(new menu1());
 
         }
     }

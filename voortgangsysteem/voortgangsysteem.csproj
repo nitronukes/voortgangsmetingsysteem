@@ -52,24 +52,18 @@
     <Compile Include="beoordelings_pagina.Designer.cs">
       <DependentUpon>beoordelings_pagina.cs</DependentUpon>
     </Compile>
-    <Compile Include="menu.cs">
+    <Compile Include="menu1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="menu.Designer.cs">
-      <DependentUpon>menu.cs</DependentUpon>
+    <Compile Include="menu1.Designer.cs">
+      <DependentUpon>menu1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="project overzicht.cs">
+    <Compile Include="project_overzicht.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="project overzicht.Designer.cs">
-      <DependentUpon>project overzicht.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Project toevoegen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Project toevoegen.Designer.cs">
-      <DependentUpon>Project toevoegen.cs</DependentUpon>
+    <Compile Include="project_overzicht.Designer.cs">
+      <DependentUpon>project_overzicht.cs</DependentUpon>
     </Compile>
     <Compile Include="home.cs">
       <SubType>Form</SubType>
@@ -77,15 +71,21 @@
     <Compile Include="home.Designer.cs">
       <DependentUpon>home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Project_toevoegen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project_toevoegen.Designer.cs">
+      <DependentUpon>Project_toevoegen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="menu.resx">
-      <DependentUpon>menu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Project toevoegen.resx">
-      <DependentUpon>Project toevoegen.cs</DependentUpon>
+    <EmbeddedResource Include="menu1.resx">
+      <DependentUpon>menu1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="home.resx">
       <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project_toevoegen.resx">
+      <DependentUpon>Project_toevoegen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
