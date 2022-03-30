@@ -36,10 +36,8 @@ namespace voortgangsysteem
             this.projectenoverzichtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.projectToevoegenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.projectov = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -128,33 +126,11 @@ namespace voortgangsysteem
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // projectov
-            // 
-            this.projectov.Location = new System.Drawing.Point(58, 98);
-            this.projectov.Name = "projectov";
-            this.projectov.Size = new System.Drawing.Size(193, 24);
-            this.projectov.TabIndex = 4;
-            this.projectov.Text = "projecten overzicht";
-            this.projectov.UseVisualStyleBackColor = true;
-            this.projectov.Click += new System.EventHandler(this.projectov_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(57, 288);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(202, 78);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "project overzicht";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 453);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.projectov);
             this.Controls.Add(this.listView1);
@@ -178,8 +154,8 @@ namespace voortgangsysteem
         private void projectenoverzichtToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            Project_overzichtpagina po = new Project_overzichtpagina();
-            po.Show();
+            //Project_overzichtpagina po = new Project_overzichtpagina();
+            //po.Show();
         }
 
         #endregion
@@ -192,6 +168,7 @@ namespace voortgangsysteem
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button projectov;
+        //private System.Windows.Forms.Button button1;
     }
 }
 using System;
