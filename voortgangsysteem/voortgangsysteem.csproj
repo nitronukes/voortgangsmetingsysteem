@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,17 +49,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="beoordeling1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="beoordeling1.Designer.cs">
+      <DependentUpon>beoordeling1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="beoordeling2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="beoordeling2.Designer.cs">
+      <DependentUpon>beoordeling2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="beoordeling3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="beoordeling3.Designer.cs">
+      <DependentUpon>beoordeling3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="beoordeling4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="beoordeling4.Designer.cs">
+      <DependentUpon>beoordeling4.cs</DependentUpon>
+    </Compile>
     <Compile Include="beoordelingspagina.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="beoordelingspagina.Designer.cs">
       <DependentUpon>beoordelingspagina.cs</DependentUpon>
-    </Compile>
-    <Compile Include="menu1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="menu1.Designer.cs">
-      <DependentUpon>menu1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="project_overzicht.cs">
@@ -78,14 +99,26 @@
       <DependentUpon>Project_toevoegen.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="beoordeling1.resx">
+      <DependentUpon>beoordeling1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="beoordeling2.resx">
+      <DependentUpon>beoordeling2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="beoordeling3.resx">
+      <DependentUpon>beoordeling3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="beoordeling4.resx">
+      <DependentUpon>beoordeling4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="beoordelingspagina.resx">
       <DependentUpon>beoordelingspagina.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="menu1.resx">
-      <DependentUpon>menu1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="home.resx">
       <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="project_overzicht.resx">
+      <DependentUpon>project_overzicht.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Project_toevoegen.resx">
       <DependentUpon>Project_toevoegen.cs</DependentUpon>
@@ -100,6 +133,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

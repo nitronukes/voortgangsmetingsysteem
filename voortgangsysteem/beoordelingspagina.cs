@@ -22,19 +22,47 @@ namespace voortgangsysteem
            
         }
 
-        private void beoordelingspagina_Load(object sender, EventArgs e)
+        private void vpt_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i <= 2; i++)
-            {
-                // maak een nieuwe rij aan (van 3 kolommen).
-                string[] row = { "Eerste project" + i, "29-03-2022", "100%" };
+            project_toevoegen newForm = new project_toevoegen();
+            newForm.ShowDialog();
 
-                // maak een listview item (rij) aan.
-                var newListViewItem = new ListViewItem(row);
+           
+        }
 
-                // voeg het nieuwe item toe aan de lijst.
-                beoordeling.Items.Add(newListViewItem);
-            }
+        private void v1_Click(object sender, EventArgs e)
+        {
+            Close();
+            beoordeling1 newForm = new beoordeling1();
+            newForm.Show();
+        }
+
+        private void v2_Click(object sender, EventArgs e)
+        {
+            Close();
+            beoordeling1 newForm = new beoordeling1();
+            newForm.Show();
+        }
+
+        private void v3_Click(object sender, EventArgs e)
+        {
+            Close();
+            beoordeling1 newForm = new beoordeling1();
+            newForm.Show();
+        }
+
+        private void v4_Click(object sender, EventArgs e)
+        {
+            Close();
+            beoordeling1 newForm = new beoordeling1();
+            newForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Close();
+          
         }
     }
-}
+    }
+

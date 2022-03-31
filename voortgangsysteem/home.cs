@@ -47,18 +47,22 @@ namespace voortgangsysteem
             //projectenListView.Items.Add(newListViewItem1);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        
+
+        private void projectToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //menu1 newForm = new menu1();
-            //newForm.ShowDialog();
-
-            Close();
-
+          
+            project_toevoegen newForm = new project_toevoegen();
+            newForm.Show();
+           
         }
 
-        private void projectenListView_SelectedIndexChanged(object sender, EventArgs e)
+        private void beoordelingspaginaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+          
+            beoordelingspagina newForm = new beoordelingspagina();
+            newForm.Show();
+            
         }
     }
 }
